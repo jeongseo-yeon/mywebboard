@@ -2,8 +2,10 @@ const express = require('express');
 const router = express.Router();
 router.route('/reg')
 .get((req,res)=>
-})
+    res,render('register');
+});
 
-.post((req,res)=>{
+.post(aync(req,res)=>{
 
 });
+module.exports = router;
